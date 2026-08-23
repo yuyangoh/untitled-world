@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Codystar:wght@300;400&family=Sono:wght,MONO@200..800,1&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+<body>
+
+<h1>Untitled World</h1>
+
+<div id="grad1">
+    <p>MY MINECRAFT BUILDS AND ADVENTURES.</p>
+</div>
+
+<div class="grid-container">
+    <div class="grid-item" id="item3">
+        <img src="2026-08-18_1.png" alt="Cover Image">
+        <button class="overlayButton" id="entry3" onclick="openEntry('entry3')">VIEW</button>
+    </div>
+
+    <div class="grid-item" id="item2">
+        <img src="2026-08-02_1.png" alt="Cover Image">
+        <button class="overlayButton" id="entry2" onclick="openEntry('entry2')">VIEW</button>
+    </div>
+    
+    <div class="grid-item" id="item1">
+        <img src="2025-11-16_1.png" alt="Cover Image">
+        <button class="overlayButton" id="entry1" onclick="openEntry('entry1')">VIEW</button>
+    </div>
+</div>
+
+<div id="content-display" class="hidden">
+    <button class="close" onclick="closeEntry()">X</button>
+    
+    <div class="carousel">
+        <button class="carousel-btn prev" onclick="changeImage(-1)">‹</button>
+        <img id="carousel-image" src="" alt="">
+        <button class="carousel-btn next" onclick="changeImage(1)">›</button>
+    </div>
+    
+    <p><span id="date"></span> | <span id="caption"></span></p>
+
+</div>
+
+</body>
+
+<div class="footer">
+  <p>Designed and created by Mademarmalade | <a href="yuyangohh@gmail.com">yuyangohh@gmail.com</a></p>
+</div>
+
+</html>
