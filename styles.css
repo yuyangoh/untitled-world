@@ -1,0 +1,138 @@
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Codystar", sans-serif;
+  font-weight: 400;
+  font-size: 10vw;
+  margin: 1.4vh;
+}
+
+p {
+  color: white;
+  text-align: center;
+  font-family: "Sono", monospace;
+  font-weight: 400;
+  font-size: 1.8vw;
+}
+
+body {
+  background: #a1e892;
+  background: linear-gradient(197deg,rgba(161, 232, 146, 1) 0%, rgba(130, 153, 255, 1) 100%);
+  height: 98vh; 
+  width: 100vw;
+  margin: 0
+}
+
+.grid-container {
+  display: grid;                           
+  grid-template-columns: repeat(3, 1fr);    /* Creates 3 identical, equal-width columns */
+  gap: 20px;                                /* Adds 20px spacing between rows and columns */
+  padding: 4vh 4vw;
+}
+
+.grid-item {
+  position: relative;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.overlayButton {
+    position: absolute;
+    transform: translate(-50%, -0%);
+    -ms-transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    left: 50%;
+    padding: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: "Sono", monospace;
+    font-size: 1.8cqw;
+    opacity: 0;
+    transition: .15s ease;
+}
+
+#hoverText {
+  font-family: "Sono", monospace;
+  font-size: 1.8cqw;
+}
+
+.overlayButton:hover {
+  background-color: #A1E892;
+  color: white;
+  opacity: 1;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#content-display {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.95); 
+  height: 98vh; 
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#content-display p {
+  color: black;
+  font-size: 1.4cqw;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#carousel-image {
+    width: 62vw;
+    height: auto;
+}
+
+.carousel-btn {
+  cursor: pointer;
+  border: none;
+  background-color: rgba(255, 255, 255, 0); 
+  font-size: 5cqw;
+  margin: 2vw;
+}
+
+.close {
+  position: absolute;
+  cursor: pointer;
+  border: none;
+  background-color: rgba(255, 255, 255, 0); 
+  font-size: 2.8cqw;
+  top: 7%;
+  right: 7%;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #A1E892;
+  text-align: center;
+}
+
+.footer p {
+    font-size: 1.2vw;
+    color: black;
+    font-weight: 400;
+}
