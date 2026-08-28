@@ -7,12 +7,26 @@ h1 {
   margin: 1.4vh;
 }
 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 15vw;
+    margin: 2.2vh;
+    padding-top: 1vh;
+  }
+}
+
 p {
   color: white;
   text-align: center;
   font-family: "Sono", monospace;
   font-weight: 400;
   font-size: 1.8vw;
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 3vw;
+  }
 }
 
 body {
@@ -23,11 +37,26 @@ body {
   margin: 0
 }
 
+@media (max-width: 768px) {
+  body {
+    height: 145vh; 
+    width: auto;
+  }
+}
+
 .grid-container {
   display: grid;                           
   grid-template-columns: repeat(3, 1fr);    /* Creates 3 identical, equal-width columns */
   gap: 20px;                                /* Adds 20px spacing between rows and columns */
   padding: 4vh 4vw;
+}
+
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 5vh 5vw;
+  }
 }
 
 .grid-item {
@@ -55,6 +84,12 @@ body {
     font-size: 1.8cqw;
     opacity: 0;
     transition: .15s ease;
+}
+
+@media (max-width: 768px) {
+  .overlayButton {
+    font-size: 3.6cqw;
+  }
 }
 
 #hoverText {
@@ -90,6 +125,12 @@ body {
   font-size: 1.4cqw;
 }
 
+@media (max-width: 768px) {
+  #content-display p {
+    font-size: 2.6cqw;
+  }
+}
+
 .carousel {
     position: relative;
     width: 100%;
@@ -99,9 +140,21 @@ body {
     justify-content: center;
 }
 
+@media (max-width: 768px) {
+  .carousel {
+    margin-top: 35vh;
+  }
+}
+
 #carousel-image {
     width: 62vw;
     height: auto;
+}
+
+@media (max-width: 768px) {
+  #carousel-image {
+    width: 70vw;
+  }
 }
 
 .carousel-btn {
@@ -112,6 +165,12 @@ body {
   margin: 2vw;
 }
 
+@media (max-width: 768px) {
+  .carousel-btn {
+    font-size: 7vw;
+  }
+}
+
 .close {
   position: absolute;
   cursor: pointer;
@@ -120,6 +179,12 @@ body {
   font-size: 2.8cqw;
   top: 7%;
   right: 7%;
+}
+
+@media (max-width: 768px) {
+  .close {
+    font-size: 4vw;
+  }
 }
 
 .footer {
@@ -135,4 +200,10 @@ body {
     font-size: 1.2vw;
     color: black;
     font-weight: 400;
+}
+
+@media (max-width: 768px) {
+  .footer p {
+    font-size: 2.4vw;
+  }
 }
