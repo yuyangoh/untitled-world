@@ -81,20 +81,20 @@ body {
     cursor: pointer;
     border-radius: 8px;
     font-family: "Sono", monospace;
-    font-size: 1.8cqw;
+    font-size: 2vw;
     opacity: 0;
     transition: .15s ease;
 }
 
 @media (max-width: 768px) {
   .overlayButton {
-    font-size: 3.6cqw;
+    font-size: 4vw;
   }
 }
 
 #hoverText {
   font-family: "Sono", monospace;
-  font-size: 1.8cqw;
+  font-size: 2vw;
 }
 
 .overlayButton:hover {
@@ -122,12 +122,12 @@ body {
 
 #content-display p {
   color: black;
-  font-size: 1.4cqw;
+  font-size: 1.6vw;
 }
 
 @media (max-width: 768px) {
   #content-display p {
-    font-size: 2.6cqw;
+    font-size: 2.5vw;
   }
 }
 
@@ -142,7 +142,7 @@ body {
 
 @media (max-width: 768px) {
   .carousel {
-    margin-top: 35vh;
+    margin-top: 30vh;
   }
 }
 
@@ -178,7 +178,7 @@ body {
   background-color: rgba(255, 255, 255, 0); 
   font-size: 2.8cqw;
   top: 7%;
-  right: 7%;
+  right: 9%;
 }
 
 @media (max-width: 768px) {
