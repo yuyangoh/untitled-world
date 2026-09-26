@@ -66,6 +66,16 @@ const entries = {
             "2026-08-18_2.png",
             "2026-08-18_3.png"
         ]
+    },
+
+    entry4: {
+        date: "16.09.2026",
+        caption: "FIRST GREENHOUSE AND A FOREST BEHIND",
+        images: [
+            "2026-09-16_1.png",
+            "2026-09-16_2.png",
+            "2026-09-16_3.png"
+        ]
     }
 };
 
