@@ -76,6 +76,26 @@ const entries = {
             "2026-09-16_2.png",
             "2026-09-16_3.png"
         ]
+    },
+
+    entry5: {
+        date: "18.09.2026",
+        caption: "CHICKEN SIGHTINGS",
+        images: [
+            "2026-09-18_1.png",
+            "2026-09-18_2.png",
+            "2026-09-18_3.png"
+        ]
+    },
+
+    entry6: {
+        date: "18.09.2026",
+        caption: "BRIDGE TO THE JUNGLE",
+        images: [
+            "2026-10-02_1.png",
+            "2026-10-02_2.png",
+            "2026-10-02_3.png"
+        ]
     }
 };
 
