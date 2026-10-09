@@ -39,7 +39,7 @@ body {
 
 @media (max-width: 768px) {
   body {
-    height: 295vh; 
+    height: 232vh; 
     width: auto;
   }
 }
@@ -55,7 +55,7 @@ body {
   .grid-container {
     grid-template-columns: 1fr;
     gap: 20px;
-    padding: 5vh 5vw;
+    padding: 2.2vh 5vw;
   }
 }
 
